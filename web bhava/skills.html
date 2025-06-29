@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Skills</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 50px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      border-radius: 12px;
+    }
+
+    h1 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    .skills-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+
+    .skill-card {
+      padding: 15px;
+      background-color: #ecf0f1;
+      border-radius: 10px;
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .skill-card:hover {
+      transform: scale(1.05);
+      background-color: #d0e6f7;
+    }
+
+    .skill-title {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .skill-level {
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Skills</h1>
+    <div class="skills-section">
+      <div class="skill-card">
+        <div class="skill-title">HTML & CSS</div>
+        <div class="skill-level">Advanced</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">JavaScript</div>
+        <div class="skill-level">Intermediate</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Python</div>
+        <div class="skill-level">Advanced</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">SQL</div>
+        <div class="skill-level">Intermediate</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Java</div>
+        <div class="skill-level">Beginner</div>
+      </div>
+      <div class="skill-card">
+        <div class="skill-title">Git & GitHub</div>
+        <div class="skill-level">Proficient</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
